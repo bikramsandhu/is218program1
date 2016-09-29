@@ -18,4 +18,8 @@
 	$myarray[] = 'some value 3';
 	// PRINT R IS USED TO VIEW INSIDE OF OBJECTS OR ARRAYS
 	print_r($myarray);
+
+	//LETS PUT TWO ARRAYS TOGETHER (NESTED ARRAY)
+	$myAssoc = array('value1' => $myarray, 'value2' => $myarray);
+	print_r($myAssoc);
 ?>
