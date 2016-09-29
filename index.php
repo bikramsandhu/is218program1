@@ -9,4 +9,13 @@
 	echo '<br>';
 	// DOUBLE QUOTES PRINT THE VALUE WHILE SINGLE QUOTES PRINT WHAT IS BETWEEN THE QUOTES
 	echo"$myvar";
+
+
+	// THIS IS AM EXAMPLE OF PHP ARRAYS
+	$myarray = array();
+	$myarray[] = 'some value 1';
+	$myarray[] = 'some value 2';
+	$myarray[] = 'some value 3';
+	// PRINT R IS USED TO VIEW INSIDE OF OBJECTS OR ARRAYS
+	print_r($myarray);
 ?>
